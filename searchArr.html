@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let arr = [5,9,10,45,99,93,2,3,4,45,2];
+        let pos=3;
+        let value=45
+        let duplicate=[]
+        let ind=undefined;
+        //works for one duplicate
+        for(let i =0; i<=arr.length-1; i++){
+            // console.log(arr[i]);
+            if(arr[i]=== value){
+                duplicate.push(i);
+                ind=i;
+                // break;
+            }
+        }
+        console.log('duplicate',duplicate);
+        console.log(arr[ind]);
+        console.log(ind);
+        // function searchArr(arr,pos){
+        //     let ind=undefined;
+        //     for(let i=0; i<=arr.length-1; i++){
+        //         if(i === pos){
+        //             ind=i;
+        //             break;
+        //         }
+        //     }
+        //     console.log(arr[ind]);
+        //     console.log(ind);
+        // }
+        // searchArr(arr,pos);
+    </script>
+</head>
+<body>
+    <h1>Search array</h1>
+</body>
+</html>
