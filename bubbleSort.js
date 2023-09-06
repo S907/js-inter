@@ -1,4 +1,4 @@
-let arr =[1,8,99,3,2,88];
+let arr =[78,8,99,3,2,88];
 
 function bubble(){
     for(i=0; i<arr.length;i++){
@@ -10,7 +10,7 @@ function bubble(){
                 arr[j+1]=temp
             }
         }
-        console.log(arr);
     }
+    console.log(arr);
 }
 console.log(bubble());
